@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">KotlinProject-DSTHEH</string>
+    <string name="heh_logo">heh logo</string>
+    <string name="heh_inventaire">HEH Inventaire</string>
+    <string name="connecte_toi">Connecte toi !</string>
+    <string name="email">Email</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="connexion">Connexion</string>
+    <string name="s_enregistrer">S\'enregistrer</string>
+    <string name="cr_er_un_compte">Créer un compte</string>
+    <string name="confirmer_le_mot_de_passe">Confirmer le mot de passe</string>
+    <string name="continuer">Continuer</string>
+    <string name="d_j_un_compte">Déjà un compte ?</string>
+    <string name="minfo">minfo</string>
+    <string name="minforw">minforw</string>
+    <string name="usergestion">usergestion</string>
+    <string name="se_d_connecter">Se déconnecter</string>
+    <string name="mat_riel">Matériel</string>
+    <string name="remise">Remise</string>
+    <string name="emprun">Emprun</string>
+    <string name="users">Users</string>
+    <string name="ajouter_un_nouvel_item">Ajouter un nouvel item</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="type">Type :</string>
+    <string name="mod_le">Modèle :</string>
+    <string name="site_web">Site web :</string>
+    <string name="quantity">Quantity :</string>
+    <string name="s_lectionner_l_id">Sélectionner l\'id :</string>
+    <string name="valider">Valider</string>
+    <string name="retour">Retour</string>
+    <string name="qr_code">QR Code</string>
+</resources>

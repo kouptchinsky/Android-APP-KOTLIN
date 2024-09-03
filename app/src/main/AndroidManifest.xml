@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KotlinProjectDSTHEH"
+        tools:targetApi="31">
+        <activity
+            android:name="be.heh.kotlinproject_dstheh.WebviewActivity"
+            android:exported="false" />
+        <activity
+            android:name="be.heh.kotlinproject_dstheh.QrActivity"
+            android:exported="false" />
+        <activity
+            android:name="be.heh.kotlinproject_dstheh.MaterielRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="be.heh.kotlinproject_dstheh.MaterielSpecActivity"
+            android:exported="false" />
+        <activity
+            android:name="be.heh.kotlinproject_dstheh.MaterielInfoSuperadminActivity"
+            android:exported="false" />
+        <activity
+            android:name="be.heh.kotlinproject_dstheh.MaterielInfoRwActivity"
+            android:exported="false" />
+        <activity
+            android:name="be.heh.kotlinproject_dstheh.MaterielInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name="be.heh.kotlinproject_dstheh.UserGestionActivity"
+            android:exported="false" />
+        <activity
+            android:name="be.heh.kotlinproject_dstheh.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="be.heh.kotlinproject_dstheh.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="10dp"
+    tools:context="be.heh.kotlinproject_dstheh.MaterielInfoActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UseCompoundDrawables">
+    <TextView
+        android:id="@+id/tv_mat_deconnexion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/se_d_connecter"
+        android:textColor="@color/colorstatelist"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="onMatClickManager"
+        tools:ignore="OnClick,RtlHardcoded" />
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2"
+        android:padding="16dp">
+    </TableLayout>
+</LinearLayout>
